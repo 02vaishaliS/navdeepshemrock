@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+<body>
+    <section class="sub-header">
+<nav>
+    <a href="http://index.html"><img src="images/images(12).jpeg"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="indexx (2).html">HOME</a></li>
+            <li><a href="aboutt.html">ABOUT</a></li>
+            <li><a href="blogg.html">BLOG</a></li>
+            <li><a href="contactt.html">CONTACT US</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>More About Us</h1>
+
+ 
+    </section>
+
+    <!-------blog-------->
+    <section class="blog-content">
+        <div class="row">
+          <div class="blog-left">
+            <img src="images/collageblog.jpeg">
+            <h2> Adding More To the Skills</h2>
+            <p>
+                Here education transcends traditional boundaries, creating an immersive and dynamic learning experience for students ranging from pre-nursery to class 6th. Our commitment to excellence is evident in every facet of our educational approach.
+
+                Our classrooms are not just spaces for lectures; they are interactive hubs where learning comes alive. Utilizing state-of-the-art technology and innovative teaching methods, our educators create an environment where students actively participate in their educational journey. From interactive whiteboards to hands-on activities, each lesson is designed to be engaging and memorable.
+                
+                At Navdeep Shemrock, we believe in the importance of holistic development. Our extracurricular activities encompass a diverse range, including music, dance, sports, and arts. These activities are essential in nurturing well-rounded individuals, fostering creativity, and providing students with opportunities to explore and develop their talents.
+                
+                Our commitment to a comprehensive educational experience extends to the summer breaks, where our camps offer a unique blend of fun and learning. These camps provide students with unforgettable adventures, allowing them to unwind, make friends, and discover new passions.
+                
+                Recognizing that every child is unique, our various academic programs are tailored to meet individual needs. Whether it's personalized tutoring or advanced placement, we strive to ensure that each student reaches their full potential.
+                
+                Our dedicated and experienced staff is the backbone of Navdeep Shemrock. Comprising passionate educators who go beyond traditional teaching methods, they create a safe, inclusive, and stimulating environment where students feel encouraged to explore, question, and excel.
+                
+                From the foundational years in pre-nursery to the transitional phase in class 6th, our teaching methods evolve to meet the developmental needs of each age group. We believe in laying a strong foundation for lifelong learning, instilling in our students the skills and values necessary for success in an ever-changing world.
+                
+                Join the Navdeep Shemrock family, where diversity is celebrated, collaboration is encouraged, and young minds are inspired to reach their full potential. Enroll today and embark on a journey of discovery and achievement. Contact us to schedule a visit and experience firsthand the vibrant and dynamic learning environment that sets us apart.
+            </p>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+                </div>
+
+          
+    </section>
+
+
+
+   <!--------footer------>
+
+   <section class="footer">
+    <h4>About Us</h4>
+    <p>University established by M.P Legislature Act.No.44 of 2011, duly recognized under
+        section 2(f)
+    </p><br>
+    <h4>Contact Us</h4>
+    <p>AKS University, Panna Road, Sherganj, Satna, Madhya Pradesh <br>Toll free : 7772897776, 8889237776
+    ,8889207776 <br>Fax : 91-07672-298008 <br>Email : info@aksuniversity.ac.in</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+   </section>
+
+    <!---------javascript for toggle menu-------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+    </script>
+</body>
+</html>
